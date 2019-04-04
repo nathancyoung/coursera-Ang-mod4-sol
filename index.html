@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app='MenuApp'>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Food Classification</title>
+  </head>
+  <body>
+    <h2 id="hierarchy">Welcome to the Chinese Dining Hierarchy</h2> 
+    <ui-view></ui-view> 
+
+    <!-- Libraries -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+
+    <!-- Modules -->
+    <script src="src/menuApp/data.module.js"></script> 
+    <script src="src/menuApp/menuapp.module.js"></script>
+
+    <!-- Routes -->
+    <script src="src/routes.js"></script>
+
+    <!-- Other Active src -->
+    <script src="src/menuApp/menudata.service.js"></script>
+    <script src="src/menuApp/categories.component.js"></script>
+    <script src="src/menuApp/items.component.js"></script>
+    <script src="src/menuApp/categories.controller.js"></script>
+    <script src="src/menuApp/items.controller.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </body>
+</html>

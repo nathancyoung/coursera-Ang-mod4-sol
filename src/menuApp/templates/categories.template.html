@@ -1,0 +1,7 @@
+<h2>Our Menu Categories: Click for more detail</h2>
+	<ul>
+		<li ng-repeat= "item in kitties.catitems" 
+		ui-sref="items({itemId: item.short_name})">
+		{{item.short_name}} :
+		{{item.name}} </li>
+	</ul>
